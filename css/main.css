@@ -9,7 +9,7 @@
 .lightgray, .resume .block .right .work ul li .company .more a {
   color: #a1a0a0; }
 
-.dgray {
+.dgray, .resume .block .left a {
   color: #4a4a4a; }
 
 .gray {
@@ -20,7 +20,9 @@
 
 .resume {
   min-width: 1200px;
-  background-color: #030000; }
+  background-color: #030000;
+  padding-bottom: 20px;
+  overflow: scroll; }
   .resume .cube {
     width: 320px;
     height: 90px;
