@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap");
+* {
+  margin: 0;
+  padding: 0; }
+
+.white {
+  color: #fff; }
+
+.lightgray, .resume .block .right .work ul li .company .more a {
+  color: #a1a0a0; }
+
+.dgray {
+  color: #4a4a4a; }
+
+.gray {
+  background-color: #161616; }
+
+.roboto {
+  font-family: 'Roboto', sans-serif; }
+
+.resume {
+  min-width: 1200px;
+  background-color: #030000; }
+  .resume .cube {
+    width: 320px;
+    height: 90px;
+    margin-left: 120px; }
+  .resume .name {
+    font-size: 90px;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding-left: 115px;
+    padding-top: 30px; }
+    .resume .name .profecion {
+      font-size: 30px; }
+  .resume .block {
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: 35% 65%; }
+    .resume .block .left {
+      margin-left: 120px;
+      margin-bottom: 60px;
+      width: 320px; }
+      .resume .block .left img {
+        height: 300px;
+        width: 320px; }
+      .resume .block .left p {
+        margin-left: 40px;
+        margin-right: 40px;
+        font-weight: 400; }
+      .resume .block .left .big {
+        font-weight: 300;
+        font-size: 37px;
+        text-transform: uppercase;
+        padding-top: 33px;
+        padding-bottom: 20px; }
+      .resume .block .left .me {
+        line-height: 1.5;
+        padding-top: 5px;
+        font-size: 17px;
+        padding-bottom: 40px;
+        border-bottom: 3px solid #a1a0a0; }
+      .resume .block .left ul {
+        padding-bottom: 60px;
+        list-style: none; }
+        .resume .block .left ul li {
+          font-size: 20px;
+          padding-bottom: 20px;
+          padding-left: 5px; }
+    .resume .block .right {
+      margin-left: 65px; }
+      .resume .block .right .work .head {
+        font-size: 40px;
+        font-weight: 400;
+        letter-spacing: 3px;
+        padding-bottom: 30px; }
+      .resume .block .right .work ul {
+        border-bottom: 3px solid #c4c4c4;
+        margin-right: 110px;
+        padding-bottom: 35px; }
+        .resume .block .right .work ul li {
+          padding-bottom: 10px;
+          display: flex;
+          line-height: 1.4; }
+          .resume .block .right .work ul li .data {
+            font-size: 20px;
+            width: 23%; }
+          .resume .block .right .work ul li .company {
+            width: 75%;
+            font-size: 23px;
+            text-transform: uppercase; }
+            .resume .block .right .work ul li .company .who {
+              font-size: 22px;
+              text-transform: none; }
+            .resume .block .right .work ul li .company .more {
+              font-size: 17px;
+              text-transform: none; }
+      .resume .block .right .education .head {
+        font-size: 40px;
+        font-weight: 400;
+        letter-spacing: 3px;
+        padding-top: 63px;
+        padding-bottom: 25px; }
+      .resume .block .right .education ul {
+        border-bottom: 3px solid #c4c4c4;
+        margin-right: 110px;
+        padding-bottom: 35px; }
+        .resume .block .right .education ul li {
+          padding-bottom: 10px;
+          display: flex;
+          line-height: 1.4; }
+          .resume .block .right .education ul li .data {
+            font-size: 20px;
+            width: 23%; }
+          .resume .block .right .education ul li .edu {
+            font-size: 20px; }
+      .resume .block .right .skills {
+        display: grid;
+        grid-template-columns: 45% 55%;
+        margin-right: 110px; }
+        .resume .block .right .skills p {
+          font-size: 20px;
+          font-weight: 400;
+          letter-spacing: 2px;
+          padding-top: 40px;
+          padding-bottom: 20px; }
+        .resume .block .right .skills ul {
+          list-style: none; }
+          .resume .block .right .skills ul li {
+            font-size: 20px;
+            font-weight: 300;
+            letter-spacing: 2px;
+            padding-top: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between; }
+            .resume .block .right .skills ul li .progressbar {
+              background-color: #babcbc;
+              height: 16px;
+              width: 100%;
+              max-width: 140px; }
+              .resume .block .right .skills ul li .progressbar > div {
+                background-color: #7b7c7c;
+                width: 40%;
+                height: 100%; }
+        .resume .block .right .skills .professional li:nth-child(1) .progressbar > div {
+          width: 70%; }
+        .resume .block .right .skills .professional li:nth-child(2) .progressbar > div {
+          width: 50%; }
+        .resume .block .right .skills .professional li:nth-child(3) .progressbar > div {
+          width: 60%; }
+        .resume .block .right .skills .professional li:nth-child(4) .progressbar > div {
+          width: 60%; }
+        .resume .block .right .skills .professional li:nth-child(5) .progressbar > div {
+          width: 50%; }
+        .resume .block .right .skills .personal {
+          margin-left: 40px; }
+          .resume .block .right .skills .personal li:nth-child(1) .progressbar > div {
+            width: 80%; }
+          .resume .block .right .skills .personal li:nth-child(2) .progressbar > div {
+            width: 65%; }
+          .resume .block .right .skills .personal li:nth-child(3) .progressbar > div {
+            width: 50%; }
+          .resume .block .right .skills .personal li:nth-child(4) .progressbar > div {
+            width: 40%; }
+    @media (max-width: 599px) {
+      .resume .block {
+        display: flex; } }
